@@ -60,3 +60,26 @@ nav a {
   margin: auto;
   margin-bottom: 25px;
 }
+.hero-small {
+  padding: 70px 0;
+}
+
+.premium-card {
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 8px 30px rgba(37,99,235,0.12);
+  margin-bottom: 20px;
+}
+
+.premium-card:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+}
+
+.card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.card li {
+  margin-bottom: 8px;
+}
