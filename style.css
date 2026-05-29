@@ -1,62 +1,165 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-body {
-  font-family: Arial, sans-serif;
-  background: #0F172A;
-  color: #F8FAFC;
-  line-height: 1.6;
-}
+  <title>GameVerse ID - Portal Informasi Game</title>
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-}
+  <meta
+    name="description"
+    content="Panduan, FAQ, dan informasi terbaru seputar dunia game."
+  />
 
-.navbar {
-  background: rgba(15, 23, 42, 0.95);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-.nav-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 0;
-}
+<body>
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #D4A017;
-}
+  <header class="navbar">
+    <div class="container nav-wrap">
 
-nav a {
-  color: #F8FAFC;
-  text-decoration: none;
-  margin-left: 20px;
-}
+      <div class="logo">
+        GameVerse ID
+      </div>
 
-.hero {
-  background: linear-gradient(to right, #0F172A, #1E3A8A);
-  padding: 100px 0;
-  text-align: center;
-}
+      <nav>
+        <a href="index.html">Beranda</a>
+        <a href="guide.html">Panduan</a>
+        <a href="article.html">Artikel</a>
+        <a href="faq.html">FAQ</a>
+        <a href="tentang.html">Tentang</a>
+      </nav>
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 15px;
-}
+    </div>
+  </header>
 
-.hero p {
-  max-width: 700px;
-  margin: auto;
-  margin-bottom: 25px;
-}
+  <section class="hero">
+    <div class="container">
+
+      <h1>
+        Portal Informasi Game Modern
+      </h1>
+
+      <p>
+        Temukan panduan, FAQ, dan artikel
+        informatif dalam satu tempat.
+      </p>
+
+      <a href="guide.html" class="btn-primary">
+        Mulai Eksplorasi
+      </a>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <h2>Panduan Populer</h2>
+
+      <div class="card-grid">
+
+        <div class="card">
+          <h3>Panduan Pemula</h3>
+          <p>
+            Pelajari dasar dan istilah penting.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Strategi Dasar</h3>
+          <p>
+            Memahami mekanik permainan.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>FAQ Lengkap</h3>
+          <p>
+            Jawaban pertanyaan umum.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section alt-bg">
+    <div class="container">
+
+      <h2>Artikel Terbaru</h2>
+
+      <div class="card-grid">
+
+        <div class="card">
+          <h3>Memahami Dunia Game</h3>
+          <p>
+            Mengenal konsep dan tren modern.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Istilah Penting</h3>
+          <p>
+            Memahami istilah umum.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <h2>Pertanyaan Umum</h2>
+
+      <div class="faq-item">
+        <h3>Apa itu GameVerse ID?</h3>
+        <p>
+          Website panduan dan informasi game.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Apakah konten akan update?</h3>
+        <p>
+          Ya, artikel akan diperbarui berkala.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-wrap">
+
+      <div>
+        <h3>GameVerse ID</h3>
+        <p>
+          Portal informasi game Indonesia.
+        </p>
+      </div>
+
+      <div>
+        <h4>Navigasi</h4>
+
+        <a href="guide.html">
+          Panduan
+        </a>
+
+        <br><br>
+
+        <a href="faq.html">
+          FAQ
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
