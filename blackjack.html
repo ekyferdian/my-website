@@ -10,12 +10,15 @@
 
 <header class="navbar">
   <div class="container nav-wrap">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+    <label for="nav-toggle" class="burger" aria-label="Toggle menu">
+      <span></span>
+    </label>
     <div class="logo"><img src="GVID.png" alt="GVID logo"></div>
     <nav>
       <a href="index.html">Beranda</a>
       <a href="guide.html">Panduan</a>
       <a href="article.html">Artikel</a>
-      <a href="togel.html">Togel</a>
       <a href="faq.html">FAQ</a>
       <a href="tentang.html">Tentang</a>
     </nav>
@@ -25,42 +28,112 @@
 <section class="hero hero-small">
   <div class="container">
     <h1>Blackjack</h1>
-    <p>Permainan kartu dengan target 21.</p>
+    <p>Permainan kartu dengan target 21 yang menggabungkan strategi dan keberuntungan.</p>
+    <a href="guide.html" class="btn-primary">Lihat Panduan</a>
   </div>
 </section>
 
 <section class="section">
-<div class="container">
+  <div class="container info-grid">
+    <div class="info-card">
+      <h3>🎯 Tujuan</h3>
+      <p>Mendapatkan total kartu sedekat mungkin dengan 21 tanpa bust.</p>
+    </div>
+    <div class="info-card">
+      <h3>🧠 Aturan Utama</h3>
+      <p>As = 1 atau 11, J/Q/K = 10, 2-10 sesuai angka.</p>
+    </div>
+    <div class="info-card">
+      <h3>💡 Strategi</h3>
+      <p>Hit pada 8-11, stand di 17+, dan split pada pasangan As/8.</p>
+    </div>
+  </div>
+  <div class="container">
 
   <div class="card premium-card">
     <h2>Pengenalan</h2>
-    <p>Blackjack adalah permainan kartu populer yang biasanya dimainkan di kasino ataupun tempat permainan lainnya. Tujuannya sederhana: pemain berusaha mendapatkan nilai kartu sedekat mungkin dengan 21, tetapi tidak boleh melebihi angka tersebut.</p>
-    <p>Blackjack terkenal karena kombinasi keberuntungan dan strategi. Tidak hanya soal kartu yang keluar, tapi juga keputusan kapan harus berhenti atau menambah kartu.</p>
+    <p>Blackjack adalah permainan kartu populer di kasino dan situs game. Tujuannya sederhana: mendapatkan nilai kartu sedekat mungkin dengan 21 tanpa melebihinya.</p>
+    <p>Pemain bersaing dengan dealer, bukan dengan pemain lain, sehingga keputusan seperti Hit dan Stand sangat penting.</p>
   </div>
 
   <div class="card premium-card">
     <h2>Aturan Dasar</h2>
     <ul>
-      <li>Kartu angka (2–10) bernilai sesuai angka yang tertera</li>
-      <li>Kartu wajah (J, Q, K) bernilai 10</li>
-      <li>As bisa bernilai 1 atau 11, tergantung mana yang lebih menguntungkan pemain</li>
-      <li>Pemain berhadapan dengan dealer, bukan dengan pemain lain</li>
+      <li>Kartu angka (2–10) bernilai sesuai angka yang tertera.</li>
+      <li>Kartu wajah (J, Q, K) bernilai 10.</li>
+      <li>As bisa bernilai 1 atau 11, sesuai kondisi terbaik pemain.</li>
+      <li>Pemain dan dealer masing-masing mendapat dua kartu pada awal ronde.</li>
+      <li>Dealer biasanya harus Hit sampai minimal 17.</li>
     </ul>
   </div>
 
   <div class="card premium-card">
-    <h2>Cara Bermain</h2>
+    <h2>Contoh Perhitungan</h2>
     <ul>
-      <li>Pemain dan dealer masing-masing mendapat dua kartu.</li>
-      <li>Pemain dapat memilih untuk "Hit" (mengambil kartu tambahan) atau "Stand" (berhenti mengambil kartu).</li>
-      <li>Dealer harus mengikuti aturan tertentu, biasanya menambah kartu sampai totalnya minimal 17.</li>
-      <li>Pemain menang jika total kartu mereka lebih tinggi dari dealer tanpa melebihi 21, atau jika dealer melebihi 21.</li>
+      <li>9 + 7 = 16</li>
+      <li>As + 9 = 20 (As dihitung sebagai 11)</li>
+      <li>As + 9 + 5 = 15 (As dihitung sebagai 1 agar tidak bust)</li>
+      <li>10 + 6 + 7 = 23 (bust, pemain kalah)</li>
     </ul>
   </div>
 
   <div class="card premium-card">
-    <h2>Istilah</h2>
-    <p>Hit, Stand, Split, Double Down</p>
+    <h2>Tabel Nilai Kartu</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Kartu</th>
+          <th>Nilai</th>
+          <th>Keterangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2 - 10</td>
+          <td>Nilai angka</td>
+          <td>Contoh: 7 = 7</td>
+        </tr>
+        <tr>
+          <td>J, Q, K</td>
+          <td>10</td>
+          <td>Kartu wajah bernilai 10</td>
+        </tr>
+        <tr>
+          <td>As</td>
+          <td>1 atau 11</td>
+          <td>Dinilai sesuai total terbaik</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Ilustrasi kartu: ♠️ 10, ♥️ K, ♦️ A, ♣️ 7</p>
+  </div>
+
+  <div class="card premium-card">
+    <h2>Strategi Dasar</h2>
+    <ul>
+      <li>Hit ketika total kartu Anda 8-11, karena peluang meningkatkan total lebih besar.</li>
+      <li>Stand jika Anda mendapatkan 17 atau lebih, apalagi jika dealer menunjukkan 2-6.</li>
+      <li>Split ketika dua kartu awal bernilai sama, seperti sepasang 8 atau As.</li>
+      <li>Double Down saat total 9-11 dengan peluang mendapatkan kartu tinggi yang menguntungkan.</li>
+    </ul>
+  </div>
+
+  <div class="card premium-card">
+    <h2>Tips Bankroll</h2>
+    <ul>
+      <li>Tetapkan batas taruhan sebelum bermain.</li>
+      <li>Jangan mengejar kekalahan dengan menaikkan taruhan secara drastis.</li>
+      <li>Gunakan taruhan kecil pada sesi panjang untuk memaksimalkan permainan.</li>
+    </ul>
+  </div>
+
+  <div class="card premium-card">
+    <h2>Istilah Penting</h2>
+    <p><strong>Hit</strong> – ambil kartu tambahan.</p>
+    <p><strong>Stand</strong> – tetap dengan total saat ini.</p>
+    <p><strong>Split</strong> – pisah pasangan kartu menjadi dua tangan.</p>
+    <p><strong>Double Down</strong> – gandakan taruhan dan ambil satu kartu tambahan.</p>
+    <p><strong>Bust</strong> – total > 21, otomatis kalah.</p>
   </div>
 
 </div>

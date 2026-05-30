@@ -10,12 +10,15 @@
 
 <header class="navbar">
   <div class="container nav-wrap">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+    <label for="nav-toggle" class="burger" aria-label="Toggle menu">
+      <span></span>
+    </label>
     <div class="logo"><img src="GVID.png" alt="GVID logo"></div>
     <nav>
       <a href="index.html">Beranda</a>
       <a href="guide.html">Panduan</a>
       <a href="article.html">Artikel</a>
-      <a href="togel.html">Togel</a>
       <a href="faq.html">FAQ</a>
       <a href="tentang.html">Tentang</a>
     </nav>
@@ -25,25 +28,91 @@
 <section class="hero hero-small">
   <div class="container">
     <h1>Baccarat</h1>
-    <p>Player vs Banker</p>
+    <p>Permainan cepat antara Player dan Banker dengan tujuan mendekati angka 9.</p>
+    <a href="guide.html" class="btn-primary">Lihat Panduan</a>
   </div>
 </section>
 
 <section class="section">
-<div class="container">
+  <div class="container info-grid">
+    <div class="info-card">
+      <h3>🎯 Tujuan</h3>
+      <p>Mendekati angka 9 dengan total kartu Anda.</p>
+    </div>
+    <div class="info-card">
+      <h3>🧾 Nilai Kartu</h3>
+      <p>10/J/Q/K = 0, As = 1, 2-9 sesuai angka.</p>
+    </div>
+    <div class="info-card">
+      <h3>💰 Taruhan</h3>
+      <p>Taruh pada Player, Banker, atau Tie.</p>
+    </div>
+  </div>
+  <div class="container">
 
   <div class="card premium-card">
     <h2>Pengenalan</h2>
-    <p>Baccarat membandingkan dua tangan: Player dan Banker.</p>
+    <p>Baccarat adalah permainan kasino populer yang sederhana tetapi elegan. Pemain bisa memasang taruhan pada Player, Banker, atau Tie.</p>
+    <p>Setiap tangan menerima dua hingga tiga kartu. Nilai total dihitung berdasarkan satuan digit terakhir dari total kartu.</p>
   </div>
 
   <div class="card premium-card">
-    <h2>Aturan</h2>
+    <h2>Aturan Dasar</h2>
     <ul>
-      <li>Tujuan mendekati angka 9</li>
-      <li>Kartu 10/J/Q/K = 0</li>
-      <li>As = 1</li>
+      <li>Tujuan permainan adalah mendapatkan total nilai sedekat mungkin dengan 9.</li>
+      <li>Kartu 2-9 bernilai angka aslinya.</li>
+      <li>10, J, Q, K bernilai 0.</li>
+      <li>As bernilai 1.</li>
+      <li>Jika total lebih dari 9, nilai tangan dihitung dari digit kedua, misalnya 15 menjadi 5.</li>
     </ul>
+  </div>
+
+  <div class="card premium-card">
+    <h2>Tabel Nilai Kartu</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Kartu</th>
+          <th>Nilai</th>
+          <th>Keterangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2 - 9</td>
+          <td>Angka aslinya</td>
+          <td>Contoh: 7 bernilai 7</td>
+        </tr>
+        <tr>
+          <td>10, J, Q, K</td>
+          <td>0</td>
+          <td>Tidak menambah total</td>
+        </tr>
+        <tr>
+          <td>As</td>
+          <td>1</td>
+          <td>Nilai paling rendah</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card premium-card">
+    <h2>Cara Bermain</h2>
+    <ul>
+      <li>Pilih taruhan pada Player, Banker, atau Tie sebelum kartu dibagikan.</li>
+      <li>Player dan Banker masing-masing mendapat dua kartu terlebih dahulu.</li>
+      <li>Aturan tambahan dapat memaksa kartu ketiga ditarik untuk Player atau Banker.</li>
+      <li>Hasil ditentukan oleh nilai total akhir kedua tangan.</li>
+    </ul>
+  </div>
+
+  <div class="card premium-card">
+    <h2>Istilah Penting</h2>
+    <p><strong>Player</strong> – sisi pertama yang mendapatkan kartu.</p>
+    <p><strong>Banker</strong> – sisi lawan yang juga mendapat taruhan.</p>
+    <p><strong>Tie</strong> – taruhan bahwa kedua sisi berakhir seri.</p>
+    <p><strong>Natural</strong> – total awal 8 atau 9.</p>
   </div>
 
 </div>
