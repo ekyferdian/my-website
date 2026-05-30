@@ -52,7 +52,7 @@ body {
   display: block;
   height: 64px;
   width: auto;
-  transform: scale(3);
+  transform: scale(2);
   transform-origin: left center;
 }
 
@@ -105,7 +105,7 @@ header h1 {
 /* HERO SECTION */
 .hero {
   background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 100%);
-  padding: 100px 0;
+  padding: 60px 0;
   text-align: center;
 }
 
@@ -273,19 +273,19 @@ footer p {
 /* RESPONSIVE */
 @media (max-width: 768px) {
   nav {
+    display: flex;
     gap: 15px;
     flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background: rgba(15, 23, 42, 0.98);
-    padding: 20px;
-    border-left: 1px solid rgba(255,255,255,0.08);
-    display: none;
+    position: static;
+    background: transparent;
+    padding: 0;
+    border-left: none;
+    width: 100%;
   }
 
   .nav-wrap {
     flex-wrap: wrap;
+    align-items: flex-start;
   }
 
   .hero h1 {
