@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: ekyferdian/my-website
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "articles"
+    label: "Artikel"
+    folder: "content/articles"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+
+    fields:
+      - label: "Judul"
+        name: "title"
+        widget: "string"
+
+      - label: "Deskripsi SEO"
+        name: "description"
+        widget: "text"
+
+      - label: "Tanggal"
+        name: "date"
+        widget: "datetime"
+
+      - label: "Gambar Thumbnail"
+        name: "thumbnail"
+        widget: "image"
+        required: false
+
+      - label: "Konten Artikel"
+        name: "body"
+        widget: "markdown"
