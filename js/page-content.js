@@ -33,8 +33,50 @@ async function loadPageContent() {
     if (pageBody) {
       pageBody.innerHTML = data.page_body ? marked.parse(data.page_body) : '';
     }
+    if (page === 'article') {
+      await loadArticleList();
+    }
   } catch (error) {
     console.error('Gagal memuat konten halaman', error);
+  }
+}
+
+async function loadArticleList() {
+  try {
+    const response = await fetch('content/articles/index.json');
+    if (!response.ok) {
+      return;
+    }
+    const data = await response.json();
+    const pageBody = document.getElementById('page-body');
+    if (!pageBody) return;
+
+    const articles = Array.isArray(data.articles) ? data.articles : [];
+    const listSection = document.createElement('div');
+    listSection.className = 'article-list';
+
+    if (articles.length === 0) {
+      listSection.innerHTML = '<p>Belum ada artikel. Tambahkan artikel melalui CMS di bagian Daftar Artikel.</p>';
+    } else {
+      const items = articles.map(article => {
+        const url = article.url || '#';
+        return `
+          <a class="card article-card" href="${url}">
+            <h3>${article.title || 'Tanpa Judul'}</h3>
+            <p>${article.summary || 'Ringkasan belum diisi.'}</p>
+          </a>
+        `;
+      }).join('');
+
+      listSection.innerHTML = `
+        <h2>Daftar Artikel</h2>
+        <div class="card-grid">${items}</div>
+      `;
+    }
+
+    pageBody.appendChild(listSection);
+  } catch (error) {
+    console.error('Gagal memuat daftar artikel', error);
   }
 }
 

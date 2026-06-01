@@ -77,6 +77,17 @@ collections:
           - {label: "Judul Hero", name: "hero_title", widget: "string"}
           - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
           - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "Daftar Artikel"
+        name: "article_index"
+        file: "content/articles/index.json"
+        fields:
+          - label: "Artikel"
+            name: "articles"
+            widget: "list"
+            fields:
+              - {label: "Judul", name: "title", widget: "string"}
+              - {label: "Ringkasan", name: "summary", widget: "text"}
+              - {label: "Tautan", name: "url", widget: "string"}
       - label: "Tentang"
         name: "tentang"
         file: "content/pages/tentang.json"
