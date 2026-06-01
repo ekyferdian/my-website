@@ -1,52 +1,49 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tentang Website</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tentang Website - GameVerse ID</title>
+  <meta name="description" content="Tentang GameVerse ID dan tujuan kami membantu pengguna memahami dunia game online." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-<header class="navbar">
-  <div class="container nav-wrap">
-    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
-    <label for="nav-toggle" class="burger" aria-label="Toggle menu">
-      <span></span>
-    </label>
-    <div class="logo"><img src="GVID.png" alt="GVID logo"></div>
-    <nav>
-      <a href="index.html">Beranda</a>
-      <a href="guide.html">Panduan</a>
-      <a href="article.html">Artikel</a>
-      <a href="faq.html">FAQ</a>
-      <a href="tentang.html">Tentang</a>
-    </nav>
-  </div>
-</header>
-
-<section class="hero hero-small">
-  <div class="container">
-    <h1>Tentang Website</h1>
-    <p>Mengenal lebih jauh tentang GameVerse ID</p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="card premium-card">
-      <h2>Siapa Kami?</h2>
-      <p>
-        Website ini dibuat untuk memberikan informasi,
-        panduan, serta artikel edukatif seputar game online.
-      </p>
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+      <label for="nav-toggle" class="burger" aria-label="Toggle menu">
+        <span></span>
+      </label>
+      <div class="logo"><img src="GVID.png" alt="GVID logo"></div>
+      <nav>
+        <a href="index.html">Beranda</a>
+        <a href="guide.html">Panduan</a>
+        <a href="article.html">Artikel</a>
+        <a href="faq.html">FAQ</a>
+        <a href="tentang.html">Tentang</a>
+      </nav>
     </div>
-  </div>
-</section>
+  </header>
 
-<footer>
-  <p>© 2026 Portal Informasi Game</p>
-</footer>
+  <section class="hero hero-small">
+    <div class="container">
+      <h1 id="hero-title">Tentang Website</h1>
+      <p id="hero-text">Mengenal lebih jauh tentang GameVerse ID.</p>
+      <a id="hero-cta" class="btn-primary" href="#" style="display: none;"></a>
+    </div>
+  </section>
 
+  <section class="section">
+    <div class="container" id="page-body">
+      <!-- Konten akan dimuat dari CMS -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Portal Informasi Game</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/page-content.js"></script>
 </body>
 </html>

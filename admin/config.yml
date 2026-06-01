@@ -34,3 +34,121 @@ collections:
       - label: "Konten Artikel"
         name: "body"
         widget: "markdown"
+
+  - name: "pages"
+    label: "Halaman"
+    label_singular: "Halaman"
+    files:
+      - label: "Beranda"
+        name: "home"
+        file: "content/pages/index.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Teks Tombol CTA", name: "hero_cta_text", widget: "string", required: false}
+          - {label: "Link Tombol CTA", name: "hero_cta_link", widget: "string", required: false}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "Artikel"
+        name: "article"
+        file: "content/pages/article.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "Panduan"
+        name: "guide"
+        file: "content/pages/guide.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "FAQ"
+        name: "faq"
+        file: "content/pages/faq.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "Tentang"
+        name: "tentang"
+        file: "content/pages/tentang.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "Blackjack"
+        name: "blackjack"
+        file: "content/pages/blackjack.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Teks Tombol CTA", name: "hero_cta_text", widget: "string", required: false}
+          - {label: "Link Tombol CTA", name: "hero_cta_link", widget: "string", required: false}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "Baccarat"
+        name: "baccarat"
+        file: "content/pages/baccarat.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Teks Tombol CTA", name: "hero_cta_text", widget: "string", required: false}
+          - {label: "Link Tombol CTA", name: "hero_cta_link", widget: "string", required: false}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "Poker"
+        name: "poker"
+        file: "content/pages/poker.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Teks Tombol CTA", name: "hero_cta_text", widget: "string", required: false}
+          - {label: "Link Tombol CTA", name: "hero_cta_link", widget: "string", required: false}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "Roulette"
+        name: "roulette"
+        file: "content/pages/roulette.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Teks Tombol CTA", name: "hero_cta_text", widget: "string", required: false}
+          - {label: "Link Tombol CTA", name: "hero_cta_link", widget: "string", required: false}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "Slots"
+        name: "slots"
+        file: "content/pages/slots.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Teks Tombol CTA", name: "hero_cta_text", widget: "string", required: false}
+          - {label: "Link Tombol CTA", name: "hero_cta_link", widget: "string", required: false}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}
+      - label: "Togel"
+        name: "togel"
+        file: "content/pages/togel.json"
+        fields:
+          - {label: "Judul Halaman", name: "title", widget: "string"}
+          - {label: "Deskripsi SEO", name: "description", widget: "text"}
+          - {label: "Judul Hero", name: "hero_title", widget: "string"}
+          - {label: "Deskripsi Hero", name: "hero_text", widget: "text"}
+          - {label: "Teks Tombol CTA", name: "hero_cta_text", widget: "string", required: false}
+          - {label: "Link Tombol CTA", name: "hero_cta_link", widget: "string", required: false}
+          - {label: "Isi Halaman", name: "page_body", widget: "markdown"}

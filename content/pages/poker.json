@@ -1,0 +1,9 @@
+{
+  "title": "Poker - GameVerse ID",
+  "description": "Panduan Poker dengan kombinasi tangan, strategi, dan istilah penting.",
+  "hero_title": "Poker",
+  "hero_text": "Poker menguji strategi, membaca lawan, dan kombinasi tangan terbaik.",
+  "hero_cta_text": "Lihat Panduan",
+  "hero_cta_link": "guide.html",
+  "page_body": "### Pengenalan\n\nPoker adalah permainan kartu yang paling banyak dimainkan di dunia. Kemenangan ditentukan oleh kombinasi tangan paling kuat dan kemampuan membaca lawan.\n\n### Kombinasi Tangan\n\n| Tangan | Deskripsi |\n| --- | --- |\n| Royal Flush | 10-J-Q-K-As dalam satu warna |\n| Straight Flush | Lima kartu berurutan dalam satu warna |\n| Four of a Kind | Empat kartu bernilai sama |\n| Full House | Tiga kartu sama + pasangan |\n| Flush | Lima kartu satu warna |\n| Straight | Lima kartu berurutan |\n| Three of a Kind | Tiga kartu sama |\n| Two Pair | Dua pasangan |\n| Pair | Satu pasangan |\n| High Card | Kartu tertinggi |\n\n### Strategi Dasar\n\n- Perhatikan posisi dan peluang kartu.\n- Jangan terlalu sering bluff pada pemain ketat.\n- Naikkan taruhan saat tangan kuat.\n- Fold jika tangan lemah.\n"
+}

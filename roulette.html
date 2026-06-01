@@ -1,108 +1,49 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Roulette - GameVerse ID</title>
-<link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roulette - GameVerse ID</title>
+  <meta name="description" content="Panduan Roulette meliputi jenis taruhan, peluang, dan cara bermain." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+      <label for="nav-toggle" class="burger" aria-label="Toggle menu">
+        <span></span>
+      </label>
+      <div class="logo"><img src="GVID.png" alt="GVID logo"></div>
+      <nav>
+        <a href="index.html">Beranda</a>
+        <a href="guide.html">Panduan</a>
+        <a href="article.html">Artikel</a>
+        <a href="faq.html">FAQ</a>
+        <a href="tentang.html">Tentang</a>
+      </nav>
+    </div>
+  </header>
 
-<header class="navbar">
-  <div class="container nav-wrap">
-    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
-    <label for="nav-toggle" class="burger" aria-label="Toggle menu">
-      <span></span>
-    </label>
-    <div class="logo"><img src="GVID.png" alt="GVID logo"></div>
-    <nav>
-      <a href="index.html">Beranda</a>
-      <a href="guide.html">Panduan</a>
-      <a href="article.html">Artikel</a>
-      <a href="faq.html">FAQ</a>
-      <a href="tentang.html">Tentang</a>
-    </nav>
-  </div>
-</header>
+  <section class="hero hero-small">
+    <div class="container">
+      <h1 id="hero-title">Roulette</h1>
+      <p id="hero-text">Permainan roda klasik dengan banyak pilihan taruhan sederhana dan kompleks.</p>
+      <a id="hero-cta" class="btn-primary" href="guide.html" style="display: inline-block;">Lihat Panduan</a>
+    </div>
+  </section>
 
-<section class="hero hero-small">
-  <div class="container">
-    <h1>Roulette</h1>
-    <p>Permainan roda klasik dengan banyak pilihan taruhan sederhana dan kompleks.</p>
-    <a href="guide.html" class="btn-primary">Lihat Panduan</a>
-  </div>
-</section>
+  <section class="section">
+    <div class="container" id="page-body">
+      <!-- Konten akan dimuat dari CMS -->
+    </div>
+  </section>
 
-<section class="section">
-  <div class="card premium-card">
-    <h2>Pengenalan</h2>
-    <p>Roulette adalah permainan kasino yang terkenal dengan roda berputar dan bola kecil. Pemain memasang taruhan pada angka, warna, atau kelompok angka.</p>
-  </div>
+  <footer>
+    <p>© 2026 Portal Informasi Game</p>
+  </footer>
 
-  <div class="card premium-card">
-    <h2>Jenis Taruhan</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Taruhan</th>
-          <th>Contoh</th>
-          <th>Peluang</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Merah / Hitam</td>
-          <td>Taruh warna</td>
-          <td>Hampir 50%</td>
-        </tr>
-        <tr>
-          <td>Genap / Ganjil</td>
-          <td>Taruh angka genap atau ganjil</td>
-          <td>Hampir 50%</td>
-        </tr>
-        <tr>
-          <td>Duzin</td>
-          <td>12 angka berturut-turut</td>
-          <td>1 banding 3</td>
-        </tr>
-        <tr>
-          <td>Kolom</td>
-          <td>Satu kolom angka</td>
-          <td>1 banding 3</td>
-        </tr>
-        <tr>
-          <td>Angka Tunggal</td>
-          <td>Satu angka saja</td>
-          <td>1 banding 37/38</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="card premium-card">
-    <h2>Cara Bermain</h2>
-    <ul>
-      <li>Pilih jenis taruhan sebelum roda diputar.</li>
-      <li>Tunggu bola berhenti pada salah satu angka di roda.</li>
-      <li>Tentukan apakah Anda ingin taruhan risiko rendah atau tinggi.</li>
-      <li>Perhatikan perbedaan antara roulette Eropa (1 nol) dan Amerika (2 nol).</li>
-    </ul>
-  </div>
-
-  <div class="card premium-card">
-    <h2>Istilah Penting</h2>
-    <p><strong>Roda</strong> – alat dengan angka dan warna.</p>
-    <p><strong>Meja</strong> – area taruhan tempat Anda memilih angka.</p>
-    <p><strong>Zero</strong> – angka 0, biasanya milik rumah.</p>
-    <p><strong>Duzin</strong> – taruhan pada 12 angka.</p>
-  </div>
-
-</div>
-</section>
-
-<footer>
-  <p>© 2026 Portal Informasi Game</p>
-</footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/page-content.js"></script>
 </body>
 </html>

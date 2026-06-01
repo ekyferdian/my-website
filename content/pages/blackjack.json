@@ -1,0 +1,9 @@
+{
+  "title": "Blackjack - GameVerse ID",
+  "description": "Panduan Blackjack termasuk aturan dasar, strategi, dan nilai kartu.",
+  "hero_title": "Blackjack",
+  "hero_text": "Permainan kartu dengan target 21 yang menggabungkan strategi dan keberuntungan.",
+  "hero_cta_text": "Lihat Panduan",
+  "hero_cta_link": "guide.html",
+  "page_body": "### Pengenalan\n\nBlackjack adalah permainan kartu populer di kasino dan situs game. Tujuannya sederhana: mendapatkan nilai kartu sedekat mungkin dengan 21 tanpa melebihinya.\n\n### Aturan Dasar\n\n- Kartu angka (2–10) bernilai sesuai angka.\n- Kartu wajah (J, Q, K) bernilai 10.\n- As bisa bernilai 1 atau 11.\n- Pemain dan dealer masing-masing mendapat dua kartu di awal ronde.\n- Dealer biasanya harus Hit sampai minimal 17.\n\n### Tabel Nilai Kartu\n\n| Kartu | Nilai | Keterangan |\n| --- | --- | --- |\n| 2 - 10 | Angka kartu | Sesuai angka |\n| J, Q, K | 10 | Kartu wajah bernilai 10 |\n| As | 1 atau 11 | Sesuai kondisi terbaik |\n\n### Strategi Dasar\n\n- Hit ketika total kartu Anda 8–11.\n- Stand jika Anda mendapatkan 17 atau lebih.\n- Split ketika dua kartu awal bernilai sama.\n- Double Down saat total 9–11.\n- Kelola taruhan dengan bijak.\n"
+}

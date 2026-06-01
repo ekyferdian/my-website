@@ -1,72 +1,49 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Panduan - GameVerse ID</title>
-<link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panduan - GameVerse ID</title>
+  <meta name="description" content="Panduan permainan yang membantu kamu memahami setiap jenis game dan mekanik utama." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+      <label for="nav-toggle" class="burger" aria-label="Toggle menu">
+        <span></span>
+      </label>
+      <div class="logo"><img src="GVID.png" alt="GVID logo"></div>
+      <nav>
+        <a href="index.html">Beranda</a>
+        <a href="guide.html">Panduan</a>
+        <a href="article.html">Artikel</a>
+        <a href="faq.html">FAQ</a>
+        <a href="tentang.html">Tentang</a>
+      </nav>
+    </div>
+  </header>
 
-<header class="navbar">
-  <div class="container nav-wrap">
-    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
-    <label for="nav-toggle" class="burger" aria-label="Toggle menu">
-      <span></span>
-    </label>
-    <div class="logo"><img src="GVID.png" alt="GVID logo"></div>
-    <nav>
-      <a href="index.html">Beranda</a>
-      <a href="guide.html">Panduan</a>
-      <a href="article.html">Artikel</a>
-      <a href="faq.html">FAQ</a>
-      <a href="tentang.html">Tentang</a>
-    </nav>
-  </div>
-</header>
+  <section class="hero hero-small">
+    <div class="container">
+      <h1 id="hero-title">Panduan Permainan</h1>
+      <p id="hero-text">Pelajari berbagai jenis permainan dan cara kerjanya.</p>
+      <a id="hero-cta" class="btn-primary" href="#" style="display: none;"></a>
+    </div>
+  </section>
 
-<section class="hero hero-small">
-  <div class="container">
-    <h1>Panduan Permainan</h1>
-    <p>Pelajari berbagai jenis permainan dan cara kerjanya.</p>
-  </div>
-</section>
+  <section class="section">
+    <div class="container" id="page-body">
+      <!-- Konten akan dimuat dari CMS -->
+    </div>
+  </section>
 
-<section class="section">
-  <div class="container card-grid">
+  <footer>
+    <p>© 2026 Portal Informasi Game</p>
+  </footer>
 
-    <a class="card premium-card" href="blackjack.html">
-      <h3>Blackjack</h3>
-      <p>Permainan kartu mendekati angka 21</p>
-    </a>
-
-    <a class="card premium-card" href="baccarat.html">
-      <h3>Baccarat</h3>
-      <p>Bandingkan Player vs Banker</p>
-    </a>
-
-    <a class="card premium-card" href="roulette.html">
-      <h3>Roulette</h3>
-      <p>Prediksi angka pada roda</p>
-    </a>
-
-    <a class="card premium-card" href="poker.html">
-      <h3>Poker</h3>
-      <p>Kombinasi kartu terbaik</p>
-    </a>
-
-    <a class="card premium-card" href="slots.html">
-      <h3>Slots</h3>
-      <p>Simbol dan gulungan digital</p>
-    </a>
-
-    <a class="card premium-card" href="togel.html">
-      <h3>Togel</h3>
-      <p>Permainan tebak angka</p>
-    </a>
-
-  </div>
-</section>
-
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/page-content.js"></script>
 </body>
 </html>

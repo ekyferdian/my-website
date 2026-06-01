@@ -1,0 +1,9 @@
+{
+  "title": "Baccarat - GameVerse ID",
+  "description": "Penjelasan Baccarat, aturan, dan cara menghitung nilai kartu.",
+  "hero_title": "Baccarat",
+  "hero_text": "Permainan cepat antara Player dan Banker dengan tujuan mendekati angka 9.",
+  "hero_cta_text": "Lihat Panduan",
+  "hero_cta_link": "guide.html",
+  "page_body": "### Pengenalan\n\nBaccarat adalah permainan kasino populer yang sederhana tetapi elegan. Pemain bisa memasang taruhan pada Player, Banker, atau Tie.\n\n### Aturan Dasar\n\n- Tujuannya mendapatkan nilai sedekat mungkin dengan 9.\n- Kartu 2–9 bernilai angka aslinya.\n- 10, J, Q, K bernilai 0.\n- As bernilai 1.\n- Jika total lebih dari 9, gunakan digit terakhir.\n\n### Tabel Nilai Kartu\n\n| Kartu | Nilai | Keterangan |\n| --- | --- | --- |\n| 2 - 9 | Angka aslinya | Contoh: 7 = 7 |\n| 10, J, Q, K | 0 | Tidak menambah total |\n| As | 1 | Nilai paling rendah |\n\n### Istilah Penting\n\n- **Player** – sisi pertama yang mendapatkan kartu.\n- **Banker** – sisi lawan dalam taruhan.\n- **Tie** – taruhan bahwa kedua sisi seri.\n- **Natural** – total awal 8 atau 9.\n"
+}

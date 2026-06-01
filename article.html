@@ -1,57 +1,49 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Artikel Lengkap</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artikel Lengkap - GameVerse ID</title>
+  <meta name="description" content="Artikel edukatif dan informasi terbaru seputar dunia game online." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-<header class="navbar">
-  <div class="container nav-wrap">
-    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
-    <label for="nav-toggle" class="burger" aria-label="Toggle menu">
-      <span></span>
-    </label>
-    <div class="logo"><img src="GVID.png" alt="GVID logo"></div>
-    <nav>
-      <a href="index.html">Beranda</a>
-      <a href="guide.html">Panduan</a>
-      <a href="article.html">Artikel</a>
-      <a href="faq.html">FAQ</a>
-      <a href="tentang.html">Tentang</a>
-    </nav>
-  </div>
-</header>
-
-<section class="hero hero-small">
-  <div class="container">
-    <h1>Artikel</h1>
-    <p>Informasi dan tips terbaru seputar dunia game</p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="card premium-card">
-      <h2>Memahami Strategi Dasar dalam Game</h2>
-      <p>
-        Banyak pemain langsung bermain tanpa memahami
-        mekanik dasar permainan.
-      </p>
-      <p>
-        Dengan memahami aturan, ritme permainan,
-        serta pola strategi umum, pemain dapat
-        lebih memahami pengalaman bermain.
-      </p>
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+      <label for="nav-toggle" class="burger" aria-label="Toggle menu">
+        <span></span>
+      </label>
+      <div class="logo"><img src="GVID.png" alt="GVID logo"></div>
+      <nav>
+        <a href="index.html">Beranda</a>
+        <a href="guide.html">Panduan</a>
+        <a href="article.html">Artikel</a>
+        <a href="faq.html">FAQ</a>
+        <a href="tentang.html">Tentang</a>
+      </nav>
     </div>
-  </div>
-</section>
+  </header>
 
-<footer>
-  <p>© 2026 Portal Informasi Game Online</p>
-</footer>
+  <section class="hero hero-small">
+    <div class="container">
+      <h1 id="hero-title">Artikel</h1>
+      <p id="hero-text">Informasi dan tips terbaru seputar dunia game.</p>
+      <a id="hero-cta" class="btn-primary" href="#" style="display: none;"></a>
+    </div>
+  </section>
 
+  <section class="section">
+    <div class="container" id="page-body">
+      <!-- Konten akan dimuat dari CMS -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Portal Informasi Game</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/page-content.js"></script>
 </body>
 </html>
