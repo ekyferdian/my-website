@@ -1,24 +1,24 @@
 {
   "guides": [
     {
-      "title": "Blackjack",
-      "summary": "Permainan kartu mendekati angka 21.",
-      "url": "blackjack.html"
-    },
-    {
       "title": "Baccarat",
       "summary": "Bandingkan Player vs Banker.",
       "url": "baccarat.html"
     },
     {
-      "title": "Roulette",
-      "summary": "Prediksi angka pada roda.",
-      "url": "roulette.html"
+      "title": "Blackjack",
+      "summary": "Permainan kartu mendekati angka 21.",
+      "url": "blackjack.html"
     },
     {
       "title": "Poker",
       "summary": "Kombinasi kartu terbaik untuk menang.",
       "url": "poker.html"
+    },
+    {
+      "title": "Roulette",
+      "summary": "Prediksi angka pada roda.",
+      "url": "roulette.html"
     },
     {
       "title": "Slots",

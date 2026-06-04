@@ -35,6 +35,18 @@ collections:
         name: "body"
         widget: "markdown"
 
+  - name: "game_guides"
+    label: "Panduan Game"
+    folder: "content/guides"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - {label: "Judul", name: "title", widget: "string"}
+      - {label: "Ringkasan", name: "summary", widget: "text"}
+      - {label: "Tautan", name: "url", widget: "string"}
+
   - name: "pages"
     label: "Halaman"
     label_singular: "Halaman"
@@ -83,17 +95,6 @@ collections:
         fields:
           - label: "Artikel"
             name: "articles"
-            widget: "list"
-            fields:
-              - {label: "Judul", name: "title", widget: "string"}
-              - {label: "Ringkasan", name: "summary", widget: "text"}
-              - {label: "Tautan", name: "url", widget: "string"}
-      - label: "Daftar Panduan Permainan"
-        name: "guide_list"
-        file: "content/pages/guides.json"
-        fields:
-          - label: "Panduan"
-            name: "guides"
             widget: "list"
             fields:
               - {label: "Judul", name: "title", widget: "string"}
