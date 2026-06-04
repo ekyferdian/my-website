@@ -2,6 +2,9 @@ backend:
   name: github
   repo: ekyferdian/my-website
   branch: main
+  app_id: "Ov23lin0Miq4KJUzCjEX"
+  base_url: "https://my-website.ekyferdian-work.workers.dev"
+  auth_scope: repo
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
