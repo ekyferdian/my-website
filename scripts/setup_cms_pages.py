@@ -52,13 +52,7 @@ page_files = {
         'hero_cta_link': '',
         'page_body': (
             '### Pilih Game yang Ingin Kamu Pelajari\n\n'
-            '- [Blackjack](blackjack.html) – Permainan kartu mendekati angka 21.\n'
-            '- [Baccarat](baccarat.html) – Bandingkan Player vs Banker.\n'
-            '- [Roulette](roulette.html) – Prediksi angka pada roda.\n'
-            '- [Poker](poker.html) – Kombinasi kartu terbaik untuk menang.\n'
-            '- [Slots](slots.html) – Slot digital dengan simbol dan bonus.\n'
-            '- [Togel](togel.html) – Permainan tebak angka.\n\n'
-            'Setiap panduan menjelaskan aturan dasar, strategi penting, dan istilah yang sering muncul.'
+            'Panduan game ini akan membantu menjelaskan aturan dasar, strategi penting, dan istilah yang sering muncul.'
         ),
     },
     'faq': {
@@ -342,6 +336,18 @@ for slug, data in page_files.items():
         'hero_cta_link': data['hero_cta_link'],
         'page_body': data['page_body'],
     }, indent=2, ensure_ascii=False), encoding='utf-8')
+
+# Generate guide list file for CMS-driven guide cards
+guide_list = [
+    {'title': 'Blackjack', 'summary': 'Permainan kartu mendekati angka 21.', 'url': 'blackjack.html'},
+    {'title': 'Baccarat', 'summary': 'Bandingkan Player vs Banker.', 'url': 'baccarat.html'},
+    {'title': 'Roulette', 'summary': 'Prediksi angka pada roda.', 'url': 'roulette.html'},
+    {'title': 'Poker', 'summary': 'Kombinasi kartu terbaik untuk menang.', 'url': 'poker.html'},
+    {'title': 'Slots', 'summary': 'Slot digital dengan simbol dan bonus.', 'url': 'slots.html'},
+    {'title': 'Togel', 'summary': 'Permainan tebak angka.', 'url': 'togel.html'},
+]
+guides_file = content_dir / 'guides.json'
+guides_file.write_text(json.dumps({'guides': guide_list}, indent=2, ensure_ascii=False), encoding='utf-8')
 
 page_content_js = '''const path = window.location.pathname;
 const page = path.endsWith('/') || path === '/' ? 'index' : path.split('/').pop().replace('.html','');

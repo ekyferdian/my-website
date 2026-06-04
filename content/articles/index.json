@@ -1,3 +1,14 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "title": "ASDASDASD",
+      "summary": "dasdasd",
+      "url": "article-detail.html?file=2026-06-01-asdasdasd.md"
+    },
+    {
+      "title": "COBA AJA",
+      "summary": "asd",
+      "url": "article-detail.html?file=2026-06-01-coba-aja.md"
+    }
+  ]
 }

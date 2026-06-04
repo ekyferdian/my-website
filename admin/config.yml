@@ -88,6 +88,17 @@ collections:
               - {label: "Judul", name: "title", widget: "string"}
               - {label: "Ringkasan", name: "summary", widget: "text"}
               - {label: "Tautan", name: "url", widget: "string"}
+      - label: "Daftar Panduan Permainan"
+        name: "guide_list"
+        file: "content/pages/guides.json"
+        fields:
+          - label: "Panduan"
+            name: "guides"
+            widget: "list"
+            fields:
+              - {label: "Judul", name: "title", widget: "string"}
+              - {label: "Ringkasan", name: "summary", widget: "text"}
+              - {label: "Tautan", name: "url", widget: "string"}
       - label: "Tentang"
         name: "tentang"
         file: "content/pages/tentang.json"
